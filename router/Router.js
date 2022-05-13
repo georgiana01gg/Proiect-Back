@@ -2,6 +2,28 @@ const express = require('express');
 const router = express.Router();
 const mysql = require("mysql");
 const connection = require("../database.js");
+const {detectLabels, detectImageProperties} = require("../utils/imageRecognition");
+
+
+//Get labels
+router.get("/labels", async (req, res) => {
+    const { link } = req.body;
+    if (!link) {
+        return res.status(400).send("Bad request. Missing parametres.");
+    }
+    const labels = await detectLabels(link);
+    
+    const dominantColors = await detectImageProperties(link);
+
+
+    return res.json({
+        labels,
+        dominantColors
+    });
+}
+);
+
+
 
 //Get the messages
 router.get("/", (req, res) => {
@@ -126,6 +148,7 @@ router.put("/:id", (req, res) => {
     );
 }
 );
+
 
 
 module.exports = router;
