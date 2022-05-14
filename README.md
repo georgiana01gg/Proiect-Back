@@ -68,6 +68,7 @@ Metodele HTTP utilizate în mod practic în această aplicație sunt GET și POS
 
 ## Autentificare și autorizare servicii utilizate
 Nu este necesară autentificarea utilizatorilor, așadar orice persoană care accesează aplicația poate insera o nouă înregistrare șipoate vizualiza interfața grafică împreună cu notificările persoanelor care au adăgat mesaje la rândul lor.
+Pentru autentificarea la serviciul Cloud Vision, am utilizat o cheie generată din platforma Google, pe care am inclus-o ulterior în folder-ul aplicației de backend.
 Serviciile utilizate sunt, serviciul de stocare cloud oferit de Google prin mașina virtuală creată, serviciul de Cloud Vision și publicarea aplicației prin platforma Cloud Heroku.
 
 
