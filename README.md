@@ -65,6 +65,7 @@ Exemple de request / response
 ## Metode HTTP
 HTTP definește un set de metode de solicitare pentru a indica acțiunea dorită care trebuie efectuată pentru o anumită resursă. Metoda GET este folosită pentru a prelua informații de la serverul dat folosind un anumit URL. Solicitările care utilizează GET ar trebui să recupereze doar date și nu ar trebui să aibă niciun alt efect asupra acestora. Solicitarea POST este utilizată pentru a trimite date către server, de exemplu, informații despre clienți, încărcare de fișiere etc. folosind formulare HTML.
 Metodele HTTP utilizate în mod practic în această aplicație sunt GET și POST, iar metoda GET BY ID este folosită în mod indirect în cadrul funcției de submit. Celelalte metode HTTP create, nu sunt implementate în frontend.
-Autentificare și autorizare servicii utilizate
+
+## Autentificare și autorizare servicii utilizate
 Nu este necesară autentificarea utilizatorilor, așadar orice persoană care accesează aplicația poate insera o nouă înregistrare șipoate vizualiza interfața grafică împreună cu notificările persoanelor care au adăgat mesaje la rândul lor.
 Serviciile utilizate sunt, serviciul de stocare cloud oferit de Google prin mașina virtuală creată, serviciul de Cloud Vision și publicarea aplicației prin platforma Cloud Heroku.
