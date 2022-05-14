@@ -8,7 +8,7 @@ Pentru asta, utilizatorii trebuie să poată insera numele, e-mail-ul, data even
 
 
 În plus, dupa introducerea unui nou mesaj, utilizatorul poate vedea o notificare în partea stângă a ecranului conform căreia mesajul său a fost adăugat cu succes în jurnal.
-Imediat ce înregistrarea a fost adăugată, un mesaj de alerta va apărea pe ecran și va ghida utilizatorul să apese „refresh” pentru a vizualizarea notificarea amintită anterior.
+Imediat ce înregistrarea a fost adăugată, un mesaj de alertă va apărea pe ecran și va ghida utilizatorul să apese „refresh” pentru a vizualizarea notificarea amintită anterior.
 
 
 ![image](https://user-images.githubusercontent.com/104913192/168423681-0033e351-0244-44d5-8a36-1f2fff2b135f.png) ![image](https://user-images.githubusercontent.com/104913192/168423684-65f2eab6-a8fb-4aa8-9b0a-26bac3d2c836.png)
