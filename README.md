@@ -31,7 +31,7 @@ Pentru simplificare, am creat două foldere numite „utils” și „router” 
 În fișierul router, am creat toate REST API-urile necesare gestiunii bazei de date: GET, POST, PUT și DELETE. Dintre acestea am exemplificat în frontend GET și POST pentru inserarea unei noi înregistrări și afișarea tuturor înregistrărilor. Iar în fișierul imageRecognition, am implementat un serviciu cloud numit CloudVision de la Google Cloud prin care un link al unei imagini generează caracteristicile specifice și identifică culorile dominante. 
 De exemplu:
 
-![image](https://user-images.githubusercontent.com/104913192/168423702-90deac65-a83f-4693-84bc-3c547d01e1d6.png) --> ![image](https://user-images.githubusercontent.com/104913192/168423704-e9cf9b6b-7467-4d94-a66f-063a148019b8.png)
+![image](https://user-images.githubusercontent.com/104913192/168423702-90deac65-a83f-4693-84bc-3c547d01e1d6.png)  --> ![image](https://user-images.githubusercontent.com/104913192/168423704-e9cf9b6b-7467-4d94-a66f-063a148019b8.png)
 
  
 Pentru implementarea serviciului de CloudVision am utilizat un API din biblioteca Google Cloud, pentru care am creat o cheie pe care am inclus-o în directorul proiectului de backend. Pentru securitate, cheia a fost adăugată în fișierul .gitignore.
