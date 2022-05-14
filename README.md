@@ -1,7 +1,7 @@
 # Documentație Proiect Cloud Computing
 
 ## Introducere
-Scopul acestei aplicații este gestiunea unei baza de date atribuită unor jurnale. Așadar, utilizatorii pot accesa plicația pentru a introduce noi mesaje pentru anumite zile, așa cum ar scrie într-un jurnal fizic.
+Scopul acestei aplicații este gestiunea unei baze de date atribuită unor jurnale. Așadar, utilizatorii pot accesa aplicația pentru a introduce noi mesaje pentru anumite zile, așa cum ar scrie într-un jurnal fizic.
 Pentru asta, utilizatorii trebuie să poată insera numele, e-mail-ul, data evenimentului, subiectul cu care pot identifica ziua respectivă și conținutul textului din jurnal.
 
 ![image](https://user-images.githubusercontent.com/104913192/168423675-ebe058de-34e7-4968-b501-5a0dec85e556.png)  ![image](https://user-images.githubusercontent.com/104913192/168423677-f8c31099-2d9c-4f20-b68f-56f5483ace16.png)
