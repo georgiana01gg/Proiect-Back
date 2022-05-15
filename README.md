@@ -17,7 +17,7 @@ Imediat ce înregistrarea a fost adăugată, un mesaj de alertă va apărea pe e
 
 ## Descriere problemă
 Pentru dezvoltarea acestei aplicații, am creat două proiecte diferite, unul de backend și unul de frontend care comunică unul cu altul.
-Inițial, am creat o mașină virtuală cu ajutorul Platformei Google Cloud. Ulterior, am creat un user și o bază de date asociată acestei mașini virtuale și am configurat o bază de date în MySql pe care am asociat-o acestei VM.
+Inițial, am creat o mașină virtuală cu ajutorul Platformei Google Cloud. Ulterior, am creat un user și o bază de date asociată acestei mașini virtuale și am configurat o bază de date în MySql pe care am asociat-o acestei VM. Baza de date utilizată constă în tabela „diary” ce conține atributele nume, email, dată, subiect și conținut.
 
 ![image](https://user-images.githubusercontent.com/104913192/168423688-028a186e-647d-43dd-8689-5fb7dfbd7e9a.png)
 
