@@ -71,5 +71,6 @@ Nu este necesară autentificarea utilizatorilor, așadar orice persoană care ac
 Pentru autentificarea la serviciul Cloud Vision, am utilizat o cheie generată din platforma Google, pe care am inclus-o ulterior în folder-ul aplicației de backend.
 Serviciile utilizate sunt, serviciul de stocare cloud oferit de Google prin mașina virtuală creată, serviciul de Cloud Vision și publicarea aplicației prin platforma Cloud Heroku.
 
-
-Link aplicatie: https://immense-wave-08125.herokuapp.com/
+## Referințe
+Link video: https://www.youtube.com/watch?v=sNxQioIguB0&ab_channel=GeorgianaCrisan
+Link aplicație: https://immense-wave-08125.herokuapp.com/
